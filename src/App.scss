@@ -1,0 +1,29 @@
+
+
+@import "./scss/bootstrap";
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+.box1{
+   min-height: 90vh;
+   min-width: 90vh;
+   background-color: rgb(154, 154, 255);
+   position: relative;
+
+
+   .box2{
+     min-height: 60vh;
+     background-color: aqua;
+      left: 70px;
+      background-image: url(../src/assets/images/sofa3.jpg);
+      padding: 30px;
+   }
+}
+.box2{
+    margin-top: 50px;
+}
